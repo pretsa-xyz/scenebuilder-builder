@@ -23,4 +23,4 @@ jobs:
     - name: Release
       env:
         JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn -B jreleaser:release
+      run: mvn -B -q jreleaser:release

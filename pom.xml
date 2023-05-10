@@ -28,7 +28,7 @@
                         <files>
                             <artifacts>
                                 <artifact>
-                                    <path>app/target/lib/scenebuilder-${project.version}.jar</path>
+                                    <path>scenebuilder/app/target/lib/scenebuilder-${project.version}-SNAPSHOT-all.jar</path>
                                 </artifact>
                             </artifacts>
                         </files>
